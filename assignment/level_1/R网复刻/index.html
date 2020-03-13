@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<link rel="stylesheet" href="./css/all.css" />
+		<link rel="stylesheet" href="./css/loop.css" />
+		<link rel="stylesheet" href="css/sidebar.css"/>
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<title>Rockstar Games immitation</title>
+	</head>
+	<body>
+		<div class="sidebar">
+		    <ul>
+		        <li><a class="" href="https://www.7k7k.com">7k7k</a></li>
+		        <li><a class="" href="https://www.4399.com/">4399</a></li>
+		        <li><a class="" href="https://www.baidu.com">百度</a></li>
+		        <li><a class="" href="https://www.bilibili.com">哔哩</a></li>
+		        <li><a class="" href="https://www.youtube.com">油管</a></li>
+		        <li><a class="" href="https://github.com/">github</a></li>
+		    </ul>
+		</div>
+	<!--做页眉-->
+		<div class="navigation">
+			<div class="font1">
+				<img src="img/导航栏.png" href="/"/>
+			</div>
+			<div class="font2" >
+				<img src="img/lamp.png" />
+			</div>
+			<div class="font3">
+				<img src="img/登陆.png" /> 
+			</div>
+		</div>
+	<div id="empty1"></div>
+	<script type="text/javascript" >
+	    $('.font1').on('click',function () {
+	        $('.sidebar').toggleClass('side');
+	    })
+	</script>
+	<!--轮播图-->
+	<div id="container">
+		<div class="photo">
+			<input type="radio" name="r" id="r1" checked />
+			<input type="radio" name="r" id="r2"/>
+			<input type="radio" name="r" id="r3"/>
+			<div class="slide s1"><img src="img/1483503495722.jpg" /></div>
+			<div class="slide"><img src="img/1483601938603.jpg" /></div>
+			<div class="slide"><img src="img/1483601960274.jpg" /></div>
+		</div>
+		<div class="labels">
+			<label for="r1" class="bar"></label>
+			<label for="r2" class="bar"></label>
+			<label for="r3" class="bar"></label>
+		</div>
+	</div>
+	<div style="width: 100%;height: 30em;"></div>
+	<!--标题1-->
+		<div class="title" id="t1"> &nbsp;Comics and Animation</div>
+	<!--陈列框-->
+		<div class="disPlay">
+			<div class="disPlay1">
+				<div class="pic1">
+					<img src="img/合照.jpg" width="100%"; />
+					<div class="explain">
+						<a href="#">齐木楠雄的灾难</a>
+					</div>
+				</div>
+			</div>
+			<div class="disPlay2">
+				<div class="pic2">
+					<img src="img/齐木楠雄.jpg"/>
+				</div>
+				<div class="pic3">
+					<img src="img/照桥心美.jpg" />
+				</div>
+			</div>
+			<div class="disPlay3">
+				<div class="pic4">
+					<img src="img/燃堂力.jpeg" />
+				</div>
+				<div class="pic5">
+					<img src="img/灰吕.jpg" />
+				</div>
+				<div class="pic6">
+					<img src="img/瞬.jpg" />
+				</div>
+			</div>
+		</div>
+	<!--标题2-->
+		<div class="title" id="t2"> &nbsp;SAO</div>
+	<!--陈列框4-->
+		<div class="disPlay4">
+			<div class="pic"id="pic7">
+				<img src="img/桐人.jpg"/>
+			</div>
+			<div class="pic"id="pic8">
+				<img src="img/亚斯娜.jpg" />
+			</div>
+			<div class="pic" id="pic9">
+				<img src="img/结衣.jpg" />
+			</div>
+			<div class="pic" id="pic10">
+				<img src="img/诗乃.jpg" />
+			</div>
+		</div>
+	<!--做页脚-->
+		<footer class="_footer">
+			<div id="_footer1">
+				<p>Unique Web Spring Camp</p>
+				</div>
+			<div id="_footer2">
+				<p>Lam</p>
+			</div>
+			<div id="_footer3">
+				<p>Mission 1</p>
+			</div>
+		</footer> 
+	</body>
+</html>
